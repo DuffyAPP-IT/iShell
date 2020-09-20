@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/a010010/Documents/GitHub/iShell/iLibX.h
+sys/wait.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+sys/file.h
+-
+zconf.h
+-
+
+/Users/a010010/Documents/GitHub/iShell/main.c
+stdio.h
+-
+string.h
+-
+zconf.h
+-
+iLibX.h
+/Users/a010010/Documents/GitHub/iShell/iLibX.h
+
